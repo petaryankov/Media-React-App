@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # required instalation 
 npm install --save-exact @faker-js/faker@7.6.0 react-icons@4.6.0 @reduxjs/toolkit axios classnames json-server
 
+npm install react-redux
+
 [install-tailwind](https://tailwindcss.com/docs/guides/create-react-app)
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
