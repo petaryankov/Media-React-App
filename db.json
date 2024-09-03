@@ -1,7 +1,22 @@
 {
-    "users": [
-        {"id": 1, "name": "Myra"}
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "id": "b666",
+      "name": "Dr. Pearl Volkman V"
+    },
+    {
+      "id": "3e51",
+      "name": "Moses Bartoletti"
+    },
+    {
+      "id": "c1c7",
+      "name": "Mrs. Elsa Ebert DDS"
+    }
+  ],
+  "albums": [],
+  "photos": []
 }

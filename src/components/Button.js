@@ -31,14 +31,13 @@ function Button({
     );
 
     return (
-        <button
-            {...rest} className="classes">
+        <button {...rest} className={classes}>
             {chiildren}
         </button>
     );
 }
 
-Button.prototype = {
+Button.propTypes = {
     checkVariationValue: ({ primary, secondary, success, warning, danger }) => {
         const count =
             Number(!!primary) +
