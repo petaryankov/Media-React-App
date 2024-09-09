@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function AlbumsList({ user }) {
     const {data, isLoading, error} = useFetchAlbumsQuery(user);
-    const [addAlbum, results] = useAddAlbumMutation()
+    const [addAlbum, results] = useAddAlbumMutation();
 
     const handleAddAlbum = () => {
         addAlbum(user);
