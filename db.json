@@ -11,6 +11,10 @@
     {
       "id": "c9fd",
       "name": "Diana Osinski"
+    },
+    {
+      "id": "eb88",
+      "name": "Lindsay Gerhold V"
     }
   ],
   "albums": [
@@ -38,6 +42,16 @@
       "id": "646b",
       "userId": "1",
       "title": "Intelligent Plastic Shoes"
+    },
+    {
+      "id": "9307",
+      "userId": "eb88",
+      "title": "Elegant Metal Chips"
+    },
+    {
+      "id": "1d3d",
+      "userId": "1",
+      "title": "Gorgeous Bronze Cheese"
     }
   ],
   "photos": []
