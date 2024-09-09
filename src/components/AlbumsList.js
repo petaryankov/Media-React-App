@@ -4,7 +4,7 @@ import ExpandablePanel from "./ExpandablePanel";
 import Button from "./Button";
 
 function AlbumsList({ user }) {
-    const {data, isLoading, error} = useFetchAlbumsQuery(user);
+    const { data, isLoading, error } = useFetchAlbumsQuery(user);
     const [addAlbum, results] = useAddAlbumMutation();
 
     const handleAddAlbum = () => {
@@ -25,9 +25,9 @@ function AlbumsList({ user }) {
         });
     }
 
-    return <div>
-        <div> Albums for {user.name}</div>
-        <Button onClick={handleAddAlbum}>
+    return <div className="m-2 flex flex-row items-center justify-between">
+        <h3 className="text-lg font-bold">Albums for {user.name}</h3>
+        <Button loading={results.isLoading} onClick={handleAddAlbum}>
             +Add Album
         </Button>
         <div>{content}</div>
