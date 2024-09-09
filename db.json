@@ -1,12 +1,8 @@
 {
   "users": [
     {
-      "id": "a81f",
-      "name": "Desiree Pollich"
-    },
-    {
-      "id": "c395",
-      "name": "Kristine Parker"
+      "id": "1",
+      "name": "Myra"
     },
     {
       "id": "661a",
@@ -17,6 +13,12 @@
       "name": "Diana Osinski"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "10",
+      "title": "Hiking Trip",
+      "userId": "1"
+    }
+  ],
   "photos": []
 }
