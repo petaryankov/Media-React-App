@@ -39,5 +39,16 @@
       "title": "Refined Cotton Soap"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "ef92",
+      "albumId": "10",
+      "url": "https://loremflickr.com/150/150/abstract?lock=3948"
+    },
+    {
+      "id": "c9a2",
+      "albumId": "10",
+      "url": "https://loremflickr.com/150/150/abstract?lock=96531"
+    }
+  ]
 }
